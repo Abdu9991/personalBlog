@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css">
+    <title>Your Personal Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/414b3bf0fd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pics/logo.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hearer-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Abduulrazig</span> <br>Mohammed from Sudan </h1>
+            </div>
+        </div>
+    </div>
+    <!-------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> <img src="pics/myPhoto.jpg" alt=""></div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <P>
+                        Hi, I'm Abdulrazig, and I'm a recent computer science student
+                        from Temple University. During my free time, I enjoy engaging
+                        in various activities such as coding, reading, exercising,
+                        cooking, and listening to music. Additionally, I enjoy spending
+                        my free time engaging in outdoor activities. Whether I go for
+                        a walk, cycle, or spend time in nature, being outdoors gives
+                        me peace in mind. I have experience in web development, Java,
+                        Python, c/c++, and database management.
+                    </P>
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience')">Experience</P>
+                        <P class="tab-links" onclick="opentab('education')">Education</P>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full-Stack</span><br> Front-end and back-end of a web application</li>
+                            <li><span>Uber/Lyft</span><br>A convenient and affordable transportation</li>
+                            <li><span>Information Desk Leader</span><br> Communication, organization, and customer
+                                service</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br> build my personal website </li>
+                            <li><span>2018 - current</span><br>Driving affordable transportation and safty is priority
+                            </li>
+                            <li><span>2019 - 2020</span><br> Team meetings and clear guidelines</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br> LaunchCode website</li>
+                            <li><span>2020</span><br>Temple University</li>
+                            <li><span>2017</span><br> Community College of Philadelphia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------services------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>Full-stack developer: front-end, HTML, CSS, and JavaScript. 
+                         Back-end functionalities use Python, Node.js, or PHP.
+                        management and retrieval. </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                <h2>Data Instruction</h2>
+                    <p> design and create educational materials and resources to teach individuals about data-related
+                         concepts and practices. </p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                    <p>craft visually appealing and user-centric mobile and web interfaces to enhance the overall user
+                         experience and functionality of digital applications. </p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------------------portfolio--------------------------------------------->
+    <div id="porfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+            <div class="work">
+                <img src="" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Your Personal Blog. All rights reserved. | Designed by You</p>
+    </footer>
+
+    <script src="javaScript.js">
+         
+    </script>
+</body>
+
+</html>
